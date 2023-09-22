@@ -1,0 +1,410 @@
+@charset "UTF-8";
+/* Estilos del menu */
+.menunav {
+  display: inline-block;
+}
+.menunav li {
+  margin: 1rem;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.link-nav {
+  background-color: rgb(173, 132, 52);
+  text-align: right;
+}
+
+.color-menu, .dropdown-item {
+  color: whitesmoke !important;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  margin-right: 8rem;
+}
+nav ul {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(173, 132, 52);
+}
+
+/* Estilos del logo */
+.delicias-bernal {
+  margin-right: 3rem;
+  width: 5rem;
+  height: 4.3rem;
+}
+
+/* Estilos del pie de pagina */
+.footer {
+  background-color: rgb(173, 132, 52);
+  text-align: center;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Estilos del formulario */
+form label,
+form input,
+form textarea,
+form input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Formulario de contacto */
+.main-contacto {
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #c39356;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Estilos de los titulos h1 */
+.titulo {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: "Kalam", cursive;
+  font-size: 2.5rem;
+  background-color: #f5f2c9;
+  padding: 1rem;
+  border-radius: 10px;
+  border-style: dotted;
+  border-color: #693f07;
+}
+
+.inicio-title, .nosotros-title, .productos-title, .ofertas-title, .contacto-title {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+/* Estilos de la imagen del inicio */
+.delicias {
+  width: 80%;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+/* Estilos del Registro */
+.registro {
+  display: flex;
+  justify-content: space-around;
+  background-color: #b8b480;
+  padding: 2rem;
+  margin: 7% 5% 5% 5%;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+}
+
+/* Estilos de la pagina nosotros */
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 0.5rem;
+}
+
+.img img {
+  width: 90%;
+  height: auto;
+  margin-left: 3rem;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+}
+
+.historia {
+  align-items: flex-end;
+  font-family: "Kalam", cursive;
+  width: 45%;
+  height: auto;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  background-color: #c39356;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1.15rem;
+}
+
+/* Estilos de los productos */
+.contenedor-productos {
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(4, 19%);
+  gap: 9rem 7rem;
+  margin: 6rem 3rem;
+  background-color: #c39356;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.contenedor-productos img {
+  width: 100%;
+  height: auto;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  border-style: double;
+}
+
+.titulo-productos {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 3rem;
+}
+
+.descripcion {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  width: 100%;
+  height: 10%;
+}
+
+.imagen-productos:hover {
+  transform: rotateY(180deg);
+  opacity: 0.5;
+}
+
+/* Estilos de las ofertas */
+.contenedor-ofertas {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 3fr;
+  gap: 2rem;
+  margin: 3rem 3rem 3rem;
+  background-color: #c39356;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.contenedor-ofertas img {
+  width: 80%;
+  height: auto;
+  margin-left: 2.5rem;
+  border-radius: 10px;
+  border-style: double;
+}
+
+.titulo-ofertas {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 2.5rem;
+}
+
+.ofertas:hover {
+  transform: rotateY(180deg);
+  opacity: 0.5;
+}
+
+.subtitulo {
+  text-align: center;
+  background-color: #c39356;
+  padding: 0.5rem;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+/* Body del contacto */
+.body-contacto {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Datos del contacto */
+.datos li {
+  margin-left: 0.1rem;
+}
+
+/* Estilo general de la página */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+  background-color: burlywood !important;
+  background-image: url(../imagenes/Arte-panes.jpg);
+}
+
+/* Estilos de direccion */
+.direccion {
+  background-color: #c39356;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  border-radius: 10px;
+  font-family: "Kalam", cursive;
+}
+
+/* Media query para una sola columna en pantallas más pequeñas de productos */
+@media (max-width: 768px) {
+  .contenedor-productos {
+    grid-template-columns: 1fr; /* Cambiar a una columna */
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 2rem 1rem;
+  }
+  .contenedor-productos > div {
+    margin-bottom: 1rem;
+    width: 70%;
+  }
+  .contenedor-productos img {
+    margin-left: 4rem;
+  }
+  .titulo-productos {
+    margin-left: 4rem;
+  }
+  .descripcion {
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1080px) {
+  .contenedor-productos {
+    grid-template-columns: 1fr; /* Cambiar a una columna */
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 2rem 1rem;
+  }
+  .contenedor-productos > div {
+    margin-bottom: 1rem;
+    width: 70%;
+  }
+  .contenedor-productos img {
+    margin-left: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  .titulo-productos {
+    margin-left: 4rem;
+  }
+  .descripcion {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+/* Media query para una sola columna en pantallas más pequeñas de nosotros */
+@media screen and (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .img img {
+    width: 80%;
+    height: auto;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .historia {
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 1080px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .img img {
+    width: 80%;
+    height: auto;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  .historia {
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* Media query para una sola columna en pantallas más pequeñas de ofertas */
+@media (max-width: 768px) {
+  .contenedor-ofertas {
+    grid-template-columns: 1fr; /* Cambiar a una columna */
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 2rem 1rem;
+  }
+  .contenedor-ofertas > div {
+    margin-bottom: 1rem;
+    width: 70%;
+  }
+  .contenedor-ofertas img {
+    margin-left: 5rem;
+  }
+  .titulo-ofertas {
+    margin-left: 5rem;
+  }
+}
+/* Media query para una sola columna en pantallas más pequeñas del inicio */
+@media (max-width: 768px) {
+  .registro {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

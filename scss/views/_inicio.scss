@@ -1,0 +1,20 @@
+/* Estilos de la imagen del inicio */
+
+.delicias {
+    @include estilos-base(80%,auto,50px,10%);
+    border-radius: 10px;
+}
+
+/* Estilos del Registro */
+
+.registro {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b8b480;
+    padding: 2rem;
+    margin: 7% 5% 5% 5%;
+    border-radius: 10px;    
+    font-family: 'Poppins', sans-serif;        
+    font-size: 1.3rem;
+}
+

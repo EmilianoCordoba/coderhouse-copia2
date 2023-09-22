@@ -1,0 +1,51 @@
+/* Estilos del menu */
+
+.menunav {
+    display: inline-block;
+    li {
+        margin: 1rem;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;        
+    }
+}
+
+.link-nav {
+    background-color: $primary-color;
+    text-align: right;
+}
+
+.color-menu, .dropdown-item {
+    color: whitesmoke !important;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    margin-right: 8rem;
+    ul {
+        text-decoration: none;
+        li {
+            a {
+                &:hover {
+                    color: rgba(0,0,0,0.3) !important;
+                }
+            }
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: $primary-color;
+}
+
+
+/* Estilos del logo */
+
+.delicias-bernal {
+    margin-right: 3rem;
+    width: 5rem;
+    height: 4.3rem;
+}

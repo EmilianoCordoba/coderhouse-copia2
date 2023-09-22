@@ -1,0 +1,49 @@
+/* Estilos de las ofertas */
+
+.contenedor-ofertas {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr;
+    gap: 2rem;
+    margin: 3rem 3rem 3rem;
+    background-color: $background-color;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.contenedor-ofertas {
+    img {
+        width: 80%;
+        height: auto;
+        margin-left: 2.5rem;
+        border-radius: 10px;
+        border-style: double;
+    }
+}
+
+.titulo-ofertas {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 2.5rem;
+}
+
+.ofertas {
+    &:hover {
+        transform: rotateY(180deg);
+        opacity: 0.5;
+    }
+}
+
+.subtitulo {
+    text-align: center;
+    background-color: $background-color;
+    padding: 0.5rem;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    font-family: 'Kalam', cursive;
+    font-size: 2rem;
+    color: whitesmoke;
+}

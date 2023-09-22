@@ -1,0 +1,27 @@
+/* Estilo general de la página */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+
+body {
+    background-color: burlywood !important; 
+    background-image: url(../imagenes/Arte-panes.jpg);
+}
+
+
+/* Estilos de direccion */
+
+.direccion {
+    background-color: $background-color;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    border-radius: 10px;
+    font-family: 'Kalam', cursive;
+}

@@ -1,0 +1,134 @@
+/* Media query para una sola columna en pantallas más pequeñas de productos */
+@media (max-width: 768px) {
+  .contenedor-productos {
+    grid-template-columns: 1fr; /* Cambiar a una columna */
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 2rem 1rem;
+  }
+  .contenedor-productos > div {
+    margin-bottom: 1rem;
+    width: 70%;
+  }
+  .contenedor-productos {
+      img {
+          margin-left: 4rem;
+      }
+  }    
+  .titulo-productos {
+      margin-left: 4rem;
+  }
+  
+  .descripcion {
+      margin-left: 4rem;
+      margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1080px) {
+  .contenedor-productos {
+    grid-template-columns: 1fr; /* Cambiar a una columna */
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 2rem 1rem;
+  }
+  .contenedor-productos > div {
+    margin-bottom: 1rem;
+    width: 70%;
+  }
+  .contenedor-productos {
+      img {
+          margin-left: 4rem;
+          margin-bottom: 0.5rem;
+      }
+  }    
+  .titulo-productos {
+      margin-left: 4rem;
+  }
+  
+  .descripcion {
+      margin-left:3rem;
+      margin-bottom: 2rem;
+  }
+}
+
+
+
+
+  /* Media query para una sola columna en pantallas más pequeñas de nosotros */
+  @media screen and (max-width: 768px) {
+    .contenedor {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .img {
+        img {
+            width: 80%;
+            height: auto;
+            margin-left: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+    .historia {
+      width: 80%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1080px){
+    .contenedor {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .img {
+        img {
+            width: 80%;
+            height: auto;
+            margin-left: 5rem;
+            margin-bottom: 2rem;
+        }
+    }
+    .historia {
+      width: 80%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+
+  
+  /* Media query para una sola columna en pantallas más pequeñas de ofertas */
+  @media (max-width: 768px) {
+    .contenedor-ofertas {
+      grid-template-columns: 1fr; /* Cambiar a una columna */
+      grid-template-rows: auto;
+      gap: 1rem;
+      margin: 2rem 1rem;
+    }
+    .contenedor-ofertas > div {
+      margin-bottom: 1rem;
+      width: 70%;
+    }
+    .contenedor-ofertas {
+        img {
+            margin-left: 5rem;
+        }
+    }   
+    .titulo-ofertas {
+        margin-left: 5rem;
+    }
+  }
+
+  /* Media query para una sola columna en pantallas más pequeñas del inicio */
+
+  @media (max-width: 768px) {
+    .registro {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      text-align: center;
+    }
+  }
